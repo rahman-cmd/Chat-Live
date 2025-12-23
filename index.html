@@ -95,6 +95,10 @@
             <a href="#" class="hover:text-white transition-colors">Home</a>
             <a href="#features" class="hover:text-white transition-colors">Features</a>
             <a href="#games" class="hover:text-white transition-colors">Games</a>
+            <a href="#recharge" class="hover:text-white transition-colors flex items-center gap-1.5"><span
+                    class="text-xs">💎</span> Recharge</a>
+            <a href="#agency" class="hover:text-white transition-colors flex items-center gap-1.5"><span
+                    class="text-xs">🤝</span> Agency</a>
             <a href="#" class="hover:text-white transition-colors">Support</a>
         </div>
 
@@ -116,11 +120,13 @@
     </nav>
 
     <!-- Mobile Menu Overlay -->
-    <div class="fixed inset-0 bg-black/95 z-[90] lg:hidden flex flex-col items-center justify-center gap-8 text-2xl font-bold opacity-0 pointer-events-none transition-all duration-300"
+    <div class="fixed inset-0 bg-black/95 z-[90] lg:hidden flex flex-col items-center justify-center gap-6 text-2xl font-bold opacity-0 pointer-events-none transition-all duration-300"
         id="mobile-menu">
         <a href="#" class="hover:gradient-text mobile-link">Home</a>
         <a href="#features" class="hover:gradient-text mobile-link">Features</a>
         <a href="#games" class="hover:gradient-text mobile-link">Games</a>
+        <a href="#recharge" class="hover:gradient-text mobile-link">Recharge</a>
+        <a href="#agency" class="hover:gradient-text mobile-link">Agency Apply</a>
         <a href="#" class="hover:gradient-text mobile-link">Support</a>
         <div class="flex flex-col gap-4 mt-4 w-full px-10">
             <button
@@ -399,42 +405,81 @@
         </div>
     </section>
 
-    <!-- Mobile CTA Preview -->
-    <section class="py-20 md:py-32 px-4 md:px-6">
-        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+    <!-- Recharge Section -->
+    <section id="recharge" class="py-20 md:py-32 px-4 md:px-6 relative overflow-hidden bg-white/[0.01]">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-16">
             <div class="lg:w-1/2 text-left">
-                <h2 class="text-4xl md:text-6xl font-black mb-8 leading-tight text-white">Your world is <br><span
-                        class="gradient-text">Only a voice away.</span></h2>
-                <div class="space-y-6">
-                    <div class="flex items-start gap-4">
-                        <div
-                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 border border-white/10 mt-1">
-                            ✓</div>
-                        <div>
-                            <h4 class="text-lg font-bold mb-1 text-white">Encrypted Voice</h4>
-                            <p class="text-gray-400 text-sm">Full privacy with E2E encrypted voice communication.</p>
-                        </div>
+                <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight text-white">Recharge <br><span
+                        class="gradient-text">Instant Diamonds</span></h2>
+                <p class="text-gray-400 mb-8 max-w-lg">Get the best deals on NEW CHAT diamonds. Level up your profile,
+                    send premium gifts, and unlock exclusive VIP features instantly.</p>
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="glass-card p-4 rounded-2xl flex items-center gap-3">
+                        <span class="text-2xl">⚡</span>
+                        <div class="text-sm font-bold">Instant Delivery</div>
                     </div>
-                    <div class="flex items-start gap-4">
-                        <div
-                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center shrink-0 border border-white/10 mt-1">
-                            ✓</div>
-                        <div>
-                            <h4 class="text-lg font-bold mb-1 text-white">Low Latency</h4>
-                            <p class="text-gray-400 text-sm">Less than 90ms latency for perfect real-time gaming.</p>
-                        </div>
+                    <div class="glass-card p-4 rounded-2xl flex items-center gap-3">
+                        <span class="text-2xl">🛡️</span>
+                        <div class="text-sm font-bold">Secure Payment</div>
+                    </div>
+                    <div class="glass-card p-4 rounded-2xl flex items-center gap-3">
+                        <span class="text-2xl">💰</span>
+                        <div class="text-sm font-bold">Best Rates</div>
+                    </div>
+                    <div class="glass-card p-4 rounded-2xl flex items-center gap-3">
+                        <span class="text-2xl">🎁</span>
+                        <div class="text-sm font-bold">Bonus Rewards</div>
                     </div>
                 </div>
+                <button
+                    class="px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-500 font-bold text-white shadow-lg shadow-cyan-500/20 hover:scale-105 transition-all">Go
+                    to Recharge Center</button>
             </div>
             <div class="lg:w-1/2 relative">
-                <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 blur-[100px] -z-10">
+                <div class="absolute inset-0 bg-blue-500/10 blur-[100px] -z-10"></div>
+                <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=600&auto=format&fit=crop"
+                    class="w-full rounded-[3rem] shadow-2xl border-2 border-white/5" alt="Diamonds and Recharge">
+            </div>
+        </div>
+    </section>
+
+    <!-- Agency Apply Section -->
+    <section id="agency" class="py-20 md:py-32 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto glass-card rounded-[3rem] md:rounded-[4rem] p-8 md:p-20 relative overflow-hidden">
+            <!-- Background Decoration -->
+            <div class="absolute -top-24 -right-24 w-64 h-64 bg-purple-600/20 rounded-full blur-[80px]"></div>
+
+            <div class="flex flex-col lg:flex-row items-center gap-12 relative z-10">
+                <div class="lg:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=800&auto=format&fit=crop"
+                        class="w-full rounded-[2.5rem] shadow-2xl" alt="Agency Application">
                 </div>
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop"
-                    class="w-72 md:w-80 rounded-[3rem] border-[10px] border-white/5 shadow-2xl mx-auto -rotate-6"
-                    alt="Mobile App">
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600&auto=format&fit=crop"
-                    class="absolute -bottom-10 -right-10 w-48 md:w-64 rounded-3xl border-8 border-white/5 shadow-2xl rotate-12 hidden md:block"
-                    alt="Tablet App">
+                <div class="lg:w-1/2 text-left">
+                    <h2 class="text-4xl md:text-5xl font-black mb-6 leading-tight text-white">Join as an <br><span
+                            class="gradient-text">Official Agency</span></h2>
+                    <p class="text-gray-400 mb-8">Empower your creators, manage your group, and grow with NEW CHAT. We
+                        provide the tools and support you need to build a successful community.</p>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center gap-3">
+                            <span
+                                class="w-6 h-6 rounded-full bg-green-500/20 text-green-500 flex items-center justify-center text-xs font-bold">✓</span>
+                            <span class="text-gray-300">High Commission Rates</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span
+                                class="w-6 h-6 rounded-full bg-green-500/20 text-green-500 flex items-center justify-center text-xs font-bold">✓</span>
+                            <span class="text-gray-300">Advanced Management Tools</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span
+                                class="w-6 h-6 rounded-full bg-green-500/20 text-green-500 flex items-center justify-center text-xs font-bold">✓</span>
+                            <span class="text-gray-300">Dedicated Support Manager</span>
+                        </li>
+                    </ul>
+                    <button
+                        class="px-10 py-5 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-600 font-bold text-white shadow-xl shadow-purple-500/20 hover:scale-105 transition-all">Apply
+                        Now for Agency</button>
+                </div>
             </div>
         </div>
     </section>
@@ -451,18 +496,7 @@
 
             <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-6">
                 <!-- App Store (Placeholder for consistency) -->
-                <a href="#"
-                    class="w-full sm:w-auto bg-white text-black px-8 py-5 rounded-3xl font-bold flex items-center justify-center gap-3 hover:bg-gray-100 transition-all hover:scale-105 shadow-xl">
-                    <svg class="w-8 h-8" viewBox="0 0 384 512" fill="currentColor">
-                        <path
-                            d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.1-77.5-19.1-36.9 0-103.4 18-146.1 106.3C54.5 301 22.9 399.3 65.1 470.3c20.5 35.1 47.9 61.9 81.1 61.9 30.5 0 39-18.5 75.3-18.5 36.3 0 45.6 18.5 75.9 18.5 34.1 0 58.3-24.3 79.4-60.1 26.6-40.3 35.2-74.7 36-76.4-2.1-.7-69.1-26.1-69.1-99.9zM265.9 97c15.4-18.6 25.9-44.1 23.3-71-23.5 1-51.3 14.4-68.3 34-15.7 17.9-28.8 44.8-23.6 71.9 26.1 2 52.8-15.6 68.6-34.9z" />
-                    </svg>
-                    <div class="text-left leading-none">
-                        <div class="text-[10px] uppercase font-bold text-gray-400 mb-0.5 whitespace-nowrap">Download on
-                            the</div>
-                        <div class="text-xl">App Store</div>
-                    </div>
-                </a>
+
 
                 <!-- Google Play -->
                 <a href="https://play.google.com/store/apps/details?id=com.newchat" target="_blank"
@@ -511,12 +545,27 @@
                     <div class="col-span-2 sm:col-span-1 flex flex-col gap-4">
                         <h5 class="text-sm font-bold uppercase tracking-widest text-white">Follow Us</h5>
                         <div class="flex gap-4">
-                            <span
-                                class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/5 transition-all text-lg cursor-pointer">𝕏</span>
-                            <span
-                                class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/5 transition-all text-lg cursor-pointer text-white">📸</span>
-                            <span
-                                class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/5 transition-all text-lg cursor-pointer text-white">🎞️</span>
+                            <a href="#"
+                                class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/10 transition-all hover:-translate-y-1 text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                </svg>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/10 transition-all hover:-translate-y-1 text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.981 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                                </svg>
+                            </a>
+                            <a href="#"
+                                class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/10 transition-all hover:-translate-y-1 text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
